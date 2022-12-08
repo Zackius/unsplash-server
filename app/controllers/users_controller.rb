@@ -12,6 +12,6 @@ end
     private
 
     def user_params
-params.permit(:first_name, second_name, :username, :email, :password)
+params.permit(:username, :email, :password)
     end
 end
